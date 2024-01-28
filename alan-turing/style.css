@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+.head {
+    background-color: #DAD7CD;
+    color: #3A5A40;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    opacity: 80%;
+    z-index: 1;
+
+}
+
+.head-elements{
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    left: 450px;
+}
+
+h2.logo2{
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 45px;
+    height: 19px;
+    right: 1300px ;
+    top: 28px;
+}
+
+ol{
+    list-style: none;
+}
+
+body{
+    background-color: #C2BDAD;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.image{
+    margin-left: 100px;
+    margin-top: 110px;
+    box-sizing: border-box;
+    width: 580px;
+    height: 580px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    border: #3A5A40 solid 20px;
+}
+
+.who{
+    position: absolute;
+    box-sizing: border-box;
+    width: 550px;
+    height: 250px;
+    left: 800px;
+    bottom: 53%;
+    text-align: justify;
+    padding: 0;
+    margin-top: 100px;
+}
+
+.who h1{
+    font-size: 50px;
+    color: #3A5A40;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: right;
+    word-spacing: 5px;
+}
+
+.who p{
+    font-size: 20px;
+    color: #3A5A40;
+    margin-bottom: 20px;
+    padding: 0;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+
+.birth{
+    position: absolute;
+    box-sizing: border-box;
+    width: 550px;
+    height: 250px;
+    top: 100%;
+    text-align: justify;
+    padding: 0;
+    margin: 100px;
+}
+
+.birth h1{
+    font-size: 50px;
+    color: #3A5A40;
+    margin-bottom: 20px;
+    padding: 0;
+    word-spacing: 5px;
+    width: 600px;
+}
+
+.birth p{
+    font-size: 20px;
+    color: #3A5A40;
+    margin-bottom: 20px;
+    padding: 0;
+    word-spacing: 5px;
+    line-height: 30px;
+    width: 600px;
+}

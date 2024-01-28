@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+left{
+    display: inline-flex;
+    height: 832px;
+    padding-left: 640px;
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+right{
+    width: 640px;
+    height: 832px; 
+    fill: #1A3660; 
+    padding-left: 650px;
+}
