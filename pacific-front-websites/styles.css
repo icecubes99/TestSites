@@ -63,7 +63,19 @@ a {
 }
 
 .second {
-  background-image:url(https://images.unsplash.com/photo-1514496959998-c01c40915c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+  background-image:url(https://w.wallhaven.cc/full/83/wallhaven-83gegj.jpg);
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+.third {
+  background-image:url(https://w.wallhaven.cc/full/p8/wallhaven-p8oloj.jpg);
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+.fourth {
+  background-image:url(https://w.wallhaven.cc/full/0q/wallhaven-0qrdvr.jpg);
   background-attachment: fixed;
   height: 1200px;
 }
@@ -80,7 +92,9 @@ h3 {
 
 .item {
   display: flex;
-  max-width: 320px;
+  width: 800px;
+  max-height: 80vh;
+  max-width: 40000px;
   background-color: black;;
   flex-direction: column;
   align-items: center;
@@ -88,8 +102,12 @@ h3 {
   -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
   -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
   box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+
 }
 
+.item p {
+  max-width: 70ch;
+}
 .img {
   width: 90%;
   height: 200px;
@@ -115,4 +133,8 @@ h3 {
 .second {
   flex-direction: row;
   gap: 1.6em;
-}
+} 
+
+
+/* https://wallhaven.cc/search?q=like%3Aey838w&page=2 */
+/* FOR THE PHOTOS */
