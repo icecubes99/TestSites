@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>CRUD</title>
+</head>
+<body>
+    <div class="body-container">
+        <div class="sidebar-container">
+            <div class="sidebar-logo"></div>
+            <h1 id="create">CREATE</h1>
+            <h1 id="read">READ</h1>
+            <h1 id="update">UPDATE</h1>
+            <h1 id="delete">DELETE</h1>
+        </div>
+        <div class="right-container">
+            <div class="header-container">
+                <div class="header-searchbar">
+                    <h1 id="search">Search...</h1>
+                    <div id="searchbar-icon">
+                    </div>
+                </div>
+            </div>
+            <div class="after-header-container">
+                <h1 id="after-header-h1">TASK LIST</h1>
+                <button id="after-header-button" onclick="openPopup()">ADD NEW TASK</button>
+            </div>
+            <div class="line-after-after-header"></div>
+            
+            <div class="table-header-container">
+                <h1>NAME</h1>
+                <h1>TASK</h1>
+                <h1>DATE POSTED</h1>
+                <h1>EDIT/DELETE</h1>
+            </div>
+
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                  <h1>ADD NEW TASK:</h1>
+                  <h2>NAME:</h2>
+                  <input type="text" id="nameInput" name="name">
+                  <h2>TASK:</h2>
+                  <input type="text" id="taskInput" name="task">
+                  <button id="popup-submit-button" onclick="addTask()" type="submit">SUBMIT</button>
+                </div>
+              </div>
+
+            <div class="task-container" id="tasks-id">
+                <!-- <div class="task-1">
+                    <div class="task-info-container">
+                        <h1 class="h1-name">Shan Nuel Tranquilan</h1>
+                        <h1 class="h1-task">Study Basic Electronics</h1>
+                        <h1>02/09/2024</h1>
+                    </div>
+                    <div class="task-buttons-container">
+                        <div class="edit"></div>
+                        <div class="delete"></div>
+                    </div>
+                </div> -->
+                <!-- <div class="task-2">
+                    <div class="task-info-container">
+                        <h1 class="h1-name">Shan Nuel Tranquilan</h1>
+                        <h1 class="h1-task">Study Basic Electronics</h1>
+                        <h1>02/09/2024</h1>
+                    </div>
+                    <div class="task-buttons-container">
+                        <div class="edit"></div>
+                        <div class="delete"></div>
+                    </div>
+                </div>
+            </div>
+                
+             -->
+
+        </div>
+
+        
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
